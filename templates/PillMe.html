@@ -1,0 +1,43 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/slick-theme.css"/>
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery-ui.js"></script>
+   	<script src="../js/bootstrap.min.js"></script>
+   	<script src="../js/slick.min.js"></script>
+</head>
+<body> 
+
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	      $('.carousel').slick({
+	      	arrows : true,
+	      	dots: true, 
+	      	slidesToShow: 1
+	      });
+	    });
+	</script>
+
+	<div class="about-me-section">
+		
+		<div class="carousel"> 
+			<div> <img style = "width: 100%;" src = "../images/Pill-Me1.jpg"/> </div>
+			<div> <img style = "width: 100%;" src = "../images/Pill-Me2.jpg"/> </div>
+		</div>
+		<p> 
+			Made By: Mahimna Dave, Kevin Shi, Allen Wang
+		</p>
+		<p>
+			Technologies: Arduino, Android, 3D Modeling, Rapid Prototyping, Node, Express 
+		</p>
+		<br/>
+		<p>
+			Pill-Me was made for Hack the North 2 which happened in September, 2015. It is an attempt at a solution to the problem of patient compliance. Right now billions of dollars are lost in the health care industry because patients either forget to take their medication or choose not too. The project is a combination of both hardware and software. There is a physical box which was 3D printed where uses put their medication. There is also an Android application where patients can enter what medications they have to take and when they have to take them. This data is sent to the Node.js server as well as as stored locally. When it is time to take medication, the server messages the Arduino circuit to light up. The only way to turn the lights off is to open the box, take the appropriate pill, take a picture of the box, and then close it.
+
+			I was responsible for doing the 3D modeling of the container in SolidWorks. I also made the electrical circuit and did the Arduino programming for it. Finally, I was responsible for making the Android application associated with the product.
+
+			For more information <a href="http://devpost.com/software/pill-me">click here</a>
+		</p>
+	</div>
+</body>
