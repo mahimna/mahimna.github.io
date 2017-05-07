@@ -200,10 +200,9 @@ p.about-me-description-text {
 	font: 400 40px/0.8 'Roboto', Helvetica, sans-serif;
 	color: #000000;
 	text-align: left;
-	/*cursor: pointer;*/
 }
 
-.project-title:hover {
+.project-title.with-link:hover {
 	color: #F8F8F8;
 
 }
