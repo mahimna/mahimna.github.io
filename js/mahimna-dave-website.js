@@ -39,7 +39,7 @@ $(window).scroll(function() {
 $(function() {
 	$(".smooth-scroll").on("click", function() {
 		$.smoothScroll({
-			scrollElement: $("body"),
+			scrollElement: $("html,body"),
 			scrollTarget: $(this).attr("href")
 		});
 		return false;
@@ -49,7 +49,7 @@ $(function() {
 $(function() {
 	$(".home-click-for-more-button").on("click", function() {
 		$.smoothScroll({
-			scrollElement: $("body"),
+			scrollElement: $("html,body"),
 			scrollTarget: "#about-me"
 		});	
 		return false;
